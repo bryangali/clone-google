@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: #000000;
+}
+
+nav .nav-right-section .menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-right-section img {
+    height: 32px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+main {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .main-logo {
+    display: flex;
+    justify-content: center;
+    width: 272px;
+    height: 92px;
+    margin: 10px;
+}
+
+main .main-logo img {
+    height: 100%;
+    width: 100%;
+}
+
+main .main-input {
+    display: flex;
+    justify-content: center;
+    width: 525px; 
+    margin: 10px;
+}
+
+main .main-input-container {
+    width: 100%;
+    height: 36px;
+    border-radius: 100px;
+    border: 1px solid rgba(234, 234, 235, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+main .main-input input {
+    width: 450px;
+    height: 34px;
+    border: none;
+    outline: none;
+}
+
+main .main-input .main-input-container:hover {
+    color: white;
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe11500;
+}
+
+main .main-input .serch-icon {
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    width: 18px;
+}
+
+main .main-input .micro-icon {
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    width: 18px;
+    cursor: pointer;   
+}
