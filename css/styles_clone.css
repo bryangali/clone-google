@@ -83,9 +83,8 @@ main .main-input-container {
     border-radius: 100px;
     border: 1px solid rgba(234, 234, 235, 1);
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: row;
+    justify-content: center;
 }
 
 main .main-input input {
@@ -102,12 +101,12 @@ main .main-input .main-input-container:hover {
 }
 
 main .main-input .serch-icon {
-    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    background-image: url("https://www.pngitem.com/pimgs/m/347-3472729_lupa-de-pesquisa-png-transparent-png.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 18px;
-    width: 18px;
+    height: 25px;
+    width: 25px;
 }
 
 main .main-input .micro-icon {
@@ -115,7 +114,32 @@ main .main-input .micro-icon {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    height: 18px;
     width: 18px;
-    width: 18px;
-    cursor: pointer;   
+    cursor: pointer; 
+}
+
+main .main-buttons {
+    width: 530px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main .main-buttons button {
+    width: 153px;
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5x;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+main .main-buttons button:hover {
+    border: 1x solid #c6c6c6;
+    box-shadow:  1px 1px rgba(0,0,0,0.1);  
+    color: #222;
 }
